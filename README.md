@@ -1,7 +1,13 @@
 # Visual-Prompting
 Visual-Prompting (MAE+VQVAE reconstruction)
-## Validate Datasets Preparation
-now support for validating in segmentation, object detectio, reasoning, colorization and CVF val-set. More downstream tasks validation is coming soon.... 
+
+## Datasets Preparation
+There are three parts:
+* CVF datasets
+* ImageNet datasets
+* Supervised vision datasets
+
+support for ， validating in segmentation, object detectio, reasoning, colorization and CVF val-set. More downstream tasks validation is coming soon.... 
 * VOC2012 (for segmentation and object detection): https://microsoft-my.sharepoint.com/:u:/p/v-wuxun/IQCN2LCN0bahTL5p8fVUJHC2AdK1Igb1UYlBBhVxx8TBD1k?email=ytongbai%40jhu.edu&e=EeIy0a
 * InageNet Val Sub-set (for colorization): https://microsoft-my.sharepoint.com/:u:/p/v-wuxun/IQCPdewMPkTkSonImgTTcXf8AZo0drH5JUaOPkZB7BE1F_0?email=ytongbai%40jhu.edu&e=G3diM2
 * the datasets should look like:
