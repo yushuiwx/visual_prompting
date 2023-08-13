@@ -1,0 +1,42 @@
+datasets:
+  # cvf: 
+  #   image_path: '/mnt1/msranlpintern/wuxun/SemDeDup/cili/scratch/wuxun/yutong/datatsets/CVF_debug'
+  # imageNet:
+  #   image_path: '/mnt1/msranlpintern/wuxun/SemDeDup/cili/scratch/wuxun/yutong/datatsets/ImageNet'
+  append_supervised:
+    root_path: '/mnt1/msranlpintern/wuxun/SemDeDup/cili/scratch/wuxun/yutong/Painter/Painter/datasets'
+    json_path: 
+      deraining:
+        - datasets: 'MRNet'
+          # train_json: derain/derain_train.json
+          val_json: derain/derain_test_rain100h.json
+      
+      # colorization:
+      #   - datasets: 'ImageNet'
+      #     # train_json: colorization/colorization_ImageNet_train.json
+      #     val_json: colorization/colorization_ImageNet_val.json
+
+      # light_enhance:
+      #   - datasets: 'LOL'
+      #     # train_json: light_enhance/enhance_lol_train.json
+      #     val_json: light_enhance/enhance_lol_val.json
+
+      # depth_estimation:
+      #   - datasets: 'nyu_depth_v2'
+      #     # train_json: nyu_depth_v2/nyuv2_sync_image_depth.json
+      #     val_json: nyu_depth_v2/nyuv2_test_image_depth.json
+
+      # semantic_segmentation:
+      #   - datasets: 'ADE20k'
+      #     # train_json: ade20k/ade20k_training_image_semantic.json
+      #     val_json: ade20k/ade20k_validation_image_semantic.json
+
+      # - task: "panoptic segmentation"
+      #   - datasets: 'COCO'
+      #     train_json: coco/pano_ca_inst/coco_train_image_panoptic_inst.json
+      #     val_json: coco/pano_ca_inst/coco_val_image_panoptic_inst.json
+
+      # - task: "human pose estimation"
+      #   - datasets: 'COCO'
+      #     train_json: /coco_pose/coco_pose_256x192_train.json
+      #     val_json: /coco_pose/coco_pose_256x192_val.json
